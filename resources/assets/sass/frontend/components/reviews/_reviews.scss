@@ -1,0 +1,9 @@
+.reviews {
+    background-color: #d74680;
+    overflow: hidden;
+    .section-title {
+        &::after {
+            background-color: #b73c6d;
+        }
+    }
+}

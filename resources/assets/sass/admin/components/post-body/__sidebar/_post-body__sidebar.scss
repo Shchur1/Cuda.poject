@@ -1,0 +1,14 @@
+.post-body__sidebar {
+	@include media($min1024) {
+		@include span-columns(4 of 12);
+		margin-left: 2.3576516%;
+		padding-left: 4.7153032%;
+		border-left: 1px solid $color-post-body-sidebar-border;
+
+		.form-group {
+			+ .form-group {
+				margin-top: 42px;
+			}
+		}
+	}
+}

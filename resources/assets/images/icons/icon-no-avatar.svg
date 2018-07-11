@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components-/-Icons-/-Person-in-Circle" fill="#D1DBE2" fill-rule="nonzero">
+            <path d="M16,0 C7.168,0 0,7.168 0,16 C0,24.832 7.168,32 16,32 C24.832,32 32,24.832 32,16 C32,7.168 24.832,0 16,0 Z M16,5 C18.7666667,5 21,7.23333333 21,10 C21,12.7666667 18.7666667,15 16,15 C13.2333333,15 11,12.7666667 11,10 C11,7.23333333 13.2333333,5 16,5 Z M15.5,27 C11.5416667,27 8.0425,24.968254 6,21.8888889 C6.0475,18.7301587 12.3333333,17 15.5,17 C18.6508333,17 24.9525,18.7301587 25,21.8888889 C22.9575,24.968254 19.4583333,27 15.5,27 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

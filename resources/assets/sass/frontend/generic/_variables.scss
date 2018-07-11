@@ -1,0 +1,43 @@
+/*
+    1. Visual Grid settings (required neat helpers)
+ */
+$visual-grid-index: front !global;
+$visual-grid-color: black !global;
+$visual-grid-opacity: 0.05 !global;
+//$visual-grid: true !global;
+
+/*
+    2. Grid settings
+ */
+$grid-columns: 12 !global;
+$max-width: 1170px !global; // you don't need it if you use bootstrap
+
+/*
+    3. Media Breakpoints (feel free to add new if you REALLY NEED IT)
+ */
+$min640: new-breakpoint(min-width 640px 6);
+$min768: new-breakpoint(min-width 768px 6);
+$min1024: new-breakpoint(min-width 1024px 12);
+$min1280: new-breakpoint(min-width 1240px 12);
+$min992: 992px;
+$mobile: new-breakpoint(max-width 1023px 12);
+
+$breakpoint_sm: 576px;
+$breakpoint_md: 768px;
+$breakpoint_lg: 992px;
+$breakpoint_xl: 1200px;
+//our extras
+$breakpoint_sm320: 320px;
+$breakpoint_767: 767px;
+$breakpoint_1024: 1024px;
+
+
+/*
+    4. Typography settings
+ */
+$base-line-height: 1.428571429;
+
+/*
+    5. Colors settings
+ */
+$base-font-color: #000;

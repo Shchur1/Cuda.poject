@@ -1,0 +1,9 @@
+.contact {
+    background-color: #3c5499;
+    overflow: hidden;
+    .section-title {
+        &::after {
+            background-color: #273a71;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.skills {
+    background-color:#ffffff;
+    overflow: hidden;
+    .section-title {
+        &::after {
+            background-color: #dfe8ed;
+        }
+    }
+    .section-description{
+        color:black;
+    }
+    .section-title {
+            color: black;
+        }
+}

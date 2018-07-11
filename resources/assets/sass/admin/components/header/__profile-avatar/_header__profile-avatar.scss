@@ -1,0 +1,7 @@
+.header__profile-avatar {
+	display: block;
+	float: left;
+	@include size(34px);
+	margin-right: 16px;
+	margin-top: 19px;
+}

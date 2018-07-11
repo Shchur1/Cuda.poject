@@ -1,0 +1,91 @@
+
+    // 1. Import fonts, frameworks, helpers
+@import "generic/fonts";
+ 
+@import "node_modules/bourbon/core/bourbon";
+@import "node_modules/bourbon-neat/app/assets/stylesheets/neat";
+@import "node_modules/bourbon-neat/app/assets/stylesheets/neat-helpers";
+// Here you can switch between bootstrap and normalize
+//@import "node_modules/normalize.css/normalize";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+@import "generic/fonts";
+@import "generic/variables";
+@import "generic/mixins";
+@import "generic/default";
+/*
+    2. Import JS styles
+ */
+ @import "vendor/slick-theme";
+ @import "vendor/slick";
+/*
+    3. Import objects
+ */
+@import "generic/objects";
+/*
+    4. Import components
+ */
+ @import "components/hero/__btn/hero__btn";
+ @import "components/hero/__text/hero__text";
+ @import "components/hero/hero";
+ @import "components/hero/__header/hero__header";
+ @import "components/hero/__header-wrapper/hero__header-wrapper";
+ 
+ @import "components/menu/menu__nav";
+ @import "components/menu/__item/menu__nav-item";
+ @import "components/menu/__link/menu__nav-link";
+
+ @import "components/progress-bar/progress-bar"
+ ;
+ @import "components/portfolio/portfolio";
+ @import "components/portfolio/__btn/portfolio__btn";
+ @import "components/portfolio/__image/portfolio__image";
+ @import "components/portfolio/__toolbar-button/portfolio__toolbar-button";
+ @import "components/portfolio/__item/portfolio__item";
+ @import "components/portfolio/__content/portfolio__content";
+
+ @import "components/portfolio-bar/portfolio-bar";
+
+ @import "components/row-slider/row-slider__item";
+
+ @import "components/socials/__nav/socials__nav";
+ @import "components/socials/__item/socials__nav-item";
+ @import "components/socials/__link/socials__nav-link";
+ @import "components/socials/socials";
+
+ @import "components/team/__item-image/team__item-image";
+ @import "components/team/__item-position/team__item-position";
+ @import "components/team/__social-link/team__social-link";
+ @import "components/team/__social-icon/team__social-icon";
+ @import "components/team/__social/team__social";
+ @import "components/team/team";
+ 
+ @import "components/skills/skills";
+
+ @import "components/reviews/__image/reviews__image";
+ @import "components/reviews/__position/reviews__position";
+ @import "components/reviews/__text/reviews__text";
+ @import "components/reviews/reviews";
+
+ @import "components/contact/contact";
+ @import "components/contact/__btn/contact__btn";
+
+ @import "components/services/__item-image/services__item-image";
+ @import "components/services/__item-media-wrapper/services__item-media-wrapper";
+ @import "components/services/services";
+
+ @import "components/logo/logo";
+ @import "components/logo/__link/logo__link";
+
+ @import "components/header/nav-item__header";
+
+ @import "components/paragraphs/__author/author";
+ @import "components/paragraphs/__colaborate/colaborate";
+
+
+/*
+    5. Import utilities
+ */
+@import "generic/utilities";
+@import "generic/bootstrap-overrides";

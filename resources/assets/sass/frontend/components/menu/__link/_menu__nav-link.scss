@@ -1,0 +1,22 @@
+.menu__nav-link {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ebc985;
+    border-radius: 5px;
+    padding: 2px 11px 2px 11px;
+    &.active {
+        background-color: white;
+    }
+    @media(min-width: $breakpoint_md) {
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #ebc985;
+        border-radius: 5px;
+        padding: 7px 22px 7px 22px;
+        &.active {
+            background-color: white;
+        }
+    }
+}

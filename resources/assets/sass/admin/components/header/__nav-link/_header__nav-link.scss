@@ -1,0 +1,14 @@
+.header__nav-link {
+	display: block;
+	height: 72px;
+
+	svg g {
+		@include transition(all 300ms ease);
+	}
+
+	&:hover {
+		svg g {
+			fill: $color-blue;
+		}
+	}
+}

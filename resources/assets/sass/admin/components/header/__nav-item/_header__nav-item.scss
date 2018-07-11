@@ -1,0 +1,13 @@
+.header__nav-item {
+	float: left;
+	min-width: 82px;
+	line-height: 72px;
+	height: 72px;
+	position: relative;
+	color: $color-nav;
+	letter-spacing: 0.3px;
+
+	& + .header__nav-item {
+		border-left: 1px solid $color-border;
+	}
+}

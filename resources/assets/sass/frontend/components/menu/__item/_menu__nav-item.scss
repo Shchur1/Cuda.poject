@@ -1,0 +1,10 @@
+.menu__nav-item {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 5px 25px 5px;
+    @media(min-width: $breakpoint_md) {
+        display: inline-block;
+        text-align: center;
+        margin: 5px;
+    }
+}

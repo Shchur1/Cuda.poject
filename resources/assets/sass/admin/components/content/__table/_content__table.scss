@@ -1,0 +1,25 @@
+.content__table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+
+	th {
+		background-color: #FAFBFC;
+		text-transform: uppercase;
+		color: $color-dark;
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 0.5px;
+		line-height: 42px;
+		text-align: left;
+		padding: 0 30px;
+
+		&.text-right {
+			text-align: right;
+		}
+	}
+
+	td {
+		padding: 20px 30px;
+	}
+}

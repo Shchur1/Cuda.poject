@@ -1,0 +1,9 @@
+.header {
+	@include size(100% 72px);
+	@include box-shadow(0 4px 24px 0 rgba(37,38,94,0.10));
+	@include clearfix();
+	@include position(fixed, 0 null null 0);
+	background-color: #FFF;
+	z-index: 90;
+	padding-left: 80px;
+}

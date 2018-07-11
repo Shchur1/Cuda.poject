@@ -1,0 +1,7 @@
+.portfolio__image {
+    width: 100%;
+    @media(min-width: $breakpoint_md) {
+        display: block;
+        margin: 0 auto;
+    }
+}

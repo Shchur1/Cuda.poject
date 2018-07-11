@@ -1,0 +1,36 @@
+ul.socials__nav li{
+    font-size: 15px;
+    display: block;
+    margin: 0;
+    border: none;
+    width: 50%;
+    float: left;
+}
+
+.socials__nav{
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 25px 5px 23px;
+    text-align: left;
+
+}
+
+
+ @media(min-width: $breakpoint_md) {
+    .socials__nav{
+        background-color: #273a71;
+        text-align: center;
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+        display: inline-flex;
+      
+    
+    }
+    
+  ul.socials__nav li{
+    font-size: 15px;
+     display:inline-block;
+     margin: 0 9px;
+}
+    }
+

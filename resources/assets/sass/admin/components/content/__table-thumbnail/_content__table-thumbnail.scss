@@ -1,0 +1,7 @@
+.content__table-thumbnail {
+	@include size(74px 60px);
+	object-fit: cover;
+	display: block;
+	float: left;
+	margin-right: 20px;
+}

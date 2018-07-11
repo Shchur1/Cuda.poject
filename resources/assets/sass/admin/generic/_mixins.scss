@@ -1,0 +1,218 @@
+/*
+    Description: init mixins here.
+
+    Content:
+    1. Mixin: Vertical Align
+    2. Mixin: Horizontal Align
+    3. Mixin: Disable User Select
+    4. Mixin: Placeholder Color
+    5. Mixin: Remove Appearance
+    6. Mixin: Box Shadow
+    7. Mixin: Opacity
+    8. Mixin: transition
+    9. Mixin: transition-with-delay
+    10. Mixin: Transform
+    11. Mixin: Background
+    12. Mixin: Keyframes
+ */
+
+
+/*
+    1. Mixin: Vertical Align
+       Usage example: @import vertical-align();
+ */
+@mixin vertical-align($position: absolute) {
+	position: $position;
+	top: 50%;
+	width: 100%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+
+/*
+    2. Mixin: Horizontal Align
+       Usage example: @import horizontal-align();
+ */
+@mixin horizontal-align($position: absolute) {
+	position: $position;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+/*
+    3. Mixin: Disable User Select
+       Usage example: @import disable-select();
+ */
+@mixin disable-select() {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+/*
+    4. Mixin: Placeholder Color
+       Usage example: @import placeholder-color(#000);
+ */
+@mixin placeholder-color($color) {
+	&::-webkit-input-placeholder { color: $color; }
+	&:-moz-placeholder { color: $color; opacity: 1; }
+	&::-moz-placeholder { color: $color; opacity: 1; }
+	&:-ms-input-placeholder { color: $color; }
+}
+
+
+/*
+    5. Mixin: Remove Appearance
+       Usage example: @import remove-appearance();
+ */
+@mixin remove-appearance() {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+
+/*
+    6. Mixin: Box Shadow
+       Usage example: @import box-shadow(inset 0 0 5px #000000);
+ */
+@mixin box-shadow($prop) {
+	-webkit-box-shadow: $prop;
+	-moz-box-shadow: $prop;
+	box-shadow: $prop;
+}
+
+
+/*
+    7. Mixin: Opacity
+       Usage example: @import opacity(75);
+ */
+@mixin opacity($prop) {
+	-webkit-opacity: $prop/100;
+	-moz-opacity: $prop/100;
+	-khtml-opacity: $prop/100;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity="+$prop+")";
+	opacity: $prop/100;
+	filter: alpha(opacity=$prop);
+}
+
+
+/*
+    8. Mixin: Transition
+       Usage example: @import transition(color 300ms ease, padding 300ms ease 0ms);
+ */
+@mixin transition($transition...) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-ms-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}
+
+
+/*
+    9. Mixin: Transition With Delay
+       Usage example: @import transition-with-delay(color 300ms ease, 0.5s);
+ */
+@mixin transition-with-delay($transition, $delay) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+	-webkit-transition-delay: $delay;
+	transition-delay: $delay;
+}
+
+
+/*
+    10. Mixin: Transform
+       Usage example: @import transform(rotate(15deg));
+ */
+@mixin transform($transforms) {
+	-moz-transform: $transforms;
+	-o-transform: $transforms;
+	-ms-transform: $transforms;
+	-webkit-transform: $transforms;
+	transform: $transforms;
+}
+
+
+/*
+    11. Mixin: Background
+        Usage example: @import bg('../img/image.jpg',  cover, no-repeat, top center);
+ */
+@mixin bg($url: false, $size: false, $repeat: false, $position: false) {
+	@if( $url != false ) {
+		background-image: url($url);
+	}
+	@if( $repeat != false ) {
+		background-repeat: $repeat;
+	} @else {
+		background-repeat: no-repeat;
+	}
+	@if( $position != false ) {
+		background-position: $position;
+	}
+	@if( $size != false ) {
+		-webkit-background-size: $size;
+		background-size: $size;
+	}
+	@else {
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+
+/*
+    12. Mixin: Keyframes
+        Usage example: @import keyframes(animationName) {...};
+ */
+@mixin keyframe ($animation_name) {
+	@-webkit-keyframes #{$animation-name} {
+		@content;
+	}
+
+	@-moz-keyframes #{$animation-name} {
+		@content;
+	}
+
+	@keyframes #{$animation-name} {
+		@content;
+	}
+}
+
+
+/*
+    13. Mixin: aspect ratio
+ */
+@mixin aspect-ratio($width, $height) {
+	position: relative;
+	padding-bottom: ($height / $width) * 100%;
+	img,
+	video,
+	iframe,
+	object,
+	embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+}

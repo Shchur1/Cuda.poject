@@ -1,0 +1,5 @@
+.post-body__content--centered {
+	@include media($min1024) {
+		@include shift(2 of 12);
+	}
+}

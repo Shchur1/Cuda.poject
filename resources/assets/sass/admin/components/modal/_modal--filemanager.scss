@@ -1,0 +1,5 @@
+.modal--filemanager {
+	@include media($min1024) {
+		@include size(800px 500px);
+	}
+}

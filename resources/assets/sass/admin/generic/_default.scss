@@ -1,0 +1,78 @@
+html,
+body {
+
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+input,
+textarea {
+	outline: none;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	color: #323C47;
+	@include placeholder {
+		color: #999999;
+		opacity: 1;
+		font-weight: 300;
+	}
+	@include border-top-radius(0);
+	@include border-bottom-radius(0);
+}
+
+textarea {
+	resize: none;
+}
+
+button {
+	outline: none;
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	appearance: checkbox;
+	-moz-appearance: checkbox;
+	-webkit-appearance: checkbox;
+}
+
+input[type="radio"] {
+	appearance: radio;
+	-moz-appearance: radio;
+	-webkit-appearance: radio;
+}
+
+a {
+	color: $base-link--color;
+	outline: none;
+	text-decoration: none;
+	&:hover { text-decoration: none; }
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	li { list-style: none; }
+}
+
+p {
+	word-break: break-word;
+	overflow-wrap: break-word;
+	white-space: normal;
+}
+
+body {
+	@include position();
+	overflow-x: hidden;
+	min-width: 320px;
+	line-height: $base-line-height;
+	font-size: 14px;
+	color: $base-font--color;
+	font-family: $base-font;
+	font-weight: 400;
+	background-color: $color-bg;
+	padding: 72px 0 0 80px;
+}

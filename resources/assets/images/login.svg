@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="85px" viewBox="0 0 80 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.5%" y="-3.6%" width="104.9%" height="108.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0936650815 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Dashboard-UI-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="27" transform="translate(-750.000000, -285.000000)" fill="#4DA1FF" fill-rule="nonzero">
+            <g id="Modal" filter="url(#filter-1)" transform="translate(343.000000, 235.000000)">
+                <g id="Group" transform="translate(421.000000, 61.000000)">
+                    <g id="Components-/-Logo">
+                        <g id="Logo">
+                            <path d="M5.47368421,24.8571429 L5.47368421,44.1904762 L13.6842105,44.1904762 L13.6842105,24.8571429 L5.47368421,24.8571429 Z M21.8947368,24.8571429 L21.8947368,44.1904762 L30.1052632,44.1904762 L30.1052632,24.8571429 L21.8947368,24.8571429 Z M0,58 L52,58 L52,49.7142857 L0,49.7142857 L0,58 Z M38.3157895,24.8571429 L38.3157895,44.1904762 L46.5263158,44.1904762 L46.5263158,24.8571429 L38.3157895,24.8571429 Z M26,0 L0,13.8095238 L0,19.3333333 L52,19.3333333 L52,13.8095238 L26,0 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

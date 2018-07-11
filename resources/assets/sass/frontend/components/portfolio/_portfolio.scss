@@ -1,0 +1,15 @@
+.portfolio{
+    background-color:#ffdd99;
+    overflow: hidden;
+    .section-title {
+        &::after {
+            background-color:#e5c37f;
+        }
+    }
+    .section-description{
+        color:black;
+    }
+    .section-title {
+            color: black;
+        }
+}

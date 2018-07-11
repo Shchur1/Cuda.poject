@@ -1,0 +1,12 @@
+.reviews__position {
+    color: #ffdd99;
+    font-size: 18px;
+    padding: 0px 0px 0px 3px;
+    margin: -15px 0 -45px 0px;
+    @media(min-width: $breakpoint_md) {
+        color: #ffdd99;
+    font-size: 18px;
+    padding: 0px 0px 0px 3px;
+    margin: -21px 0 0px 0px;
+    }
+}

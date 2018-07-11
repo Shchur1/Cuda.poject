@@ -1,0 +1,14 @@
+.sidenav__link {
+	display: block;
+	@include size(80px);
+	text-align: center;
+	line-height: 80px;
+	cursor: pointer;
+	position: relative;
+
+	&:hover {
+		.sidenav__icon {
+			color: $color-blue;
+		}
+	}
+}

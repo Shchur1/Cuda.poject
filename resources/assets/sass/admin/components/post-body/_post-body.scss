@@ -1,0 +1,11 @@
+.post-body {
+	padding: 3em 4em 4em;
+	background-color: #FFF;
+	border: 1px solid $color-post-body-border;
+	@include border-top-radius(4px);
+	@include border-bottom-radius(4px);
+
+	@include media($min1024) {
+		display: flex;
+	}
+}

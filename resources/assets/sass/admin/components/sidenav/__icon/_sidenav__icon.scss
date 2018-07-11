@@ -1,0 +1,18 @@
+.sidenav__icon {
+	color: $color-icon;
+	font-size: 28px;
+	vertical-align: middle;
+	@include transition(color 300ms ease);
+
+	&--dashboard {
+		font-size: 28px;
+	}
+
+	&--content {
+		font-size: 24px;
+	}
+
+	&--settings {
+		font-size: 26px;
+	}
+}

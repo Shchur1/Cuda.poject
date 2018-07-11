@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="29px" viewBox="0 0 26 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components-/-Logo" fill="#CAD8E2" fill-rule="nonzero">
+            <path d="M2.73684211,12.4285714 L2.73684211,22.0952381 L6.84210526,22.0952381 L6.84210526,12.4285714 L2.73684211,12.4285714 Z M10.9473684,12.4285714 L10.9473684,22.0952381 L15.0526316,22.0952381 L15.0526316,12.4285714 L10.9473684,12.4285714 Z M0,29 L26,29 L26,24.8571429 L0,24.8571429 L0,29 Z M19.1578947,12.4285714 L19.1578947,22.0952381 L23.2631579,22.0952381 L23.2631579,12.4285714 L19.1578947,12.4285714 Z M13,0 L0,6.9047619 L0,9.66666667 L26,9.66666667 L26,6.9047619 L13,0 Z" id="Logo"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+.header__nav-icon {
+	display: block;
+	margin: 0 auto;
+	max-width: 24px;
+	@include position(absolute, 50% null null 49%);
+	@include transform(translate(-49%, -50%));
+}

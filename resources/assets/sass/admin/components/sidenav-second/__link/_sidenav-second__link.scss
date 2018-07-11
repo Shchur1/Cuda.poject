@@ -1,0 +1,10 @@
+.sidenav-second__link {
+	color: $color-dark;
+	font-size: 14px;
+	line-height: 27px;
+	display: block;
+
+	&:hover {
+		color: $color-blue;
+	}
+}

@@ -1,0 +1,7 @@
+.post-thumbnail__preview {
+	@include size(100% 200px);
+	object-fit: cover;
+	display: block;
+	@include border-top-radius(4px);
+	@include border-bottom-radius(4px);
+}

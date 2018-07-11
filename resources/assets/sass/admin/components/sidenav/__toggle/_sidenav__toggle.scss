@@ -1,0 +1,6 @@
+.sidenav__toggle {
+	@include size(80px 72px);
+	display: block;
+	cursor: pointer;
+	@include bg('/admin_assets/images/icons/icon-hamburger.svg', 23px, no-repeat, center);
+}

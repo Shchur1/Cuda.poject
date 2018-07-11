@@ -1,0 +1,6 @@
+.sidenav__content {
+	@include media($min1024) {
+		@include position(absolute, 50% null null 0);
+		@include transform(translateY(-50%));
+	}
+}

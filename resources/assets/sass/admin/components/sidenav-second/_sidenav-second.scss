@@ -1,0 +1,25 @@
+.sidenav-second {
+	z-index: 70;
+	@include size(240px 100%);
+	@include size(240px 100vh);
+	padding: 90px 24px 24px;
+	background-color: #FFF;
+	border-right: 1px solid $color-border;
+	display: flex;
+	align-items: center;
+	color: $color-dark;
+	@include transition(left 250ms ease);
+	@include media($min1024) {
+		@include position(fixed, 0 null null -240px);
+	}
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.nav-is-open {
+	.sidenav-second {
+		left: 80px;
+	}
+}

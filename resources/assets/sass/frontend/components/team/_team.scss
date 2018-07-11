@@ -1,0 +1,15 @@
+.team {
+    background-color:#e7f1f8;
+    overflow: hidden;
+    .section-title {
+        &::after {
+            background-color: #c8d9e5;
+        }
+    }
+    .section-description{
+        color:black;
+    }
+    .section-title {
+            color: black;
+        }
+}

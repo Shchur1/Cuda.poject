@@ -1,0 +1,33 @@
+.team__social{
+        margin: 30px 0px;
+        & img {
+            margin-right: 0;
+            margin-left: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        @media(min-width: $breakpoint_md) {
+            margin: 30px 0 35px 24px;
+            & img {
+                margin-right: 0;
+                margin-left: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        @media(min-width: $breakpoint_lg) {
+            margin: 33px 0 0px 0px;
+            & img {
+                margin-right: 0;
+                margin-left: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }

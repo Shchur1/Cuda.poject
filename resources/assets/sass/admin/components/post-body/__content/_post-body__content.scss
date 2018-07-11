@@ -1,0 +1,5 @@
+.post-body__content {
+	@include media($min1024) {
+		@include span-columns(8 of 12);
+	}
+}

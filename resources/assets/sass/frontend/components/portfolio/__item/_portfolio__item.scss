@@ -1,0 +1,28 @@
+.portfolio__item {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    @media(min-width: $breakpoint_md) {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+        padding: 0 15px;
+    }
+    @media(min-width: $breakpoint_lg) {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+        width: 50%;
+        padding: 0 15px;
+    }
+    &.img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+}
+

@@ -1,0 +1,9 @@
+.logo {
+    width: 110px;
+    color: white;
+    @media(min-width: $breakpoint_md) {
+        width: auto;
+        margin-top: 0;
+        max-height: 30px;
+    }
+}

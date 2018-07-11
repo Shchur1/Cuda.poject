@@ -1,0 +1,60 @@
+/*
+    1. Import Neat helpers
+ */
+@import "../vendor/neat/neat-helpers";
+
+/*
+    2. Visual Grid settings (required neat helpers)
+ */
+$visual-grid-index: front !global;
+$visual-grid-color: black !global;
+$visual-grid-opacity: 0.05 !global;
+//$visual-grid: true !global;
+
+/*
+    3. Grid settings
+ */
+$grid-columns: 12 !global;
+$max-width: 1170px !global;
+
+/*
+    4. Media Breakpoints
+ */
+$min640: new-breakpoint(min-width 640px 6);
+$min768: new-breakpoint(min-width 768px 6);
+$min1024: new-breakpoint(min-width 1024px 12);
+$min1280: new-breakpoint(min-width 1240px 12);
+
+$mobile: new-breakpoint(max-width 1023px 12);
+
+/*
+    5. Typography settings
+ */
+$base-line-height: 1.428571429;
+
+/*
+    6. Colors settings
+ */
+$color-bg: #FAFBFC;
+//$color-border: #F0F3F4;
+$color-border: #e7edf0;
+$color-gray: #939EAB;
+$base-font--color: $color-gray;
+$color-nav: #637280;
+$color-icon: #d1dbe2;
+$color-icon: #cad8e2;
+$color-dark: #323C47;
+$color-blue: #4DA1FF;
+$color-blue-hover: #1579e8;
+$color-input-border: #DCE0E6;
+$base-link--color: black;
+$base-font: 'Lato', sans-serif;
+$color-post-body-border: #F0F3F4;
+$color-post-body-sidebar-border: #DFE3E8;
+$color-post-thumbnail: #D8DFE5;
+$color-overlay: #FAFBFC;
+$color-required: #D74721;
+
+/*
+    7. Z-index values
+ */

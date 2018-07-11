@@ -1,0 +1,13 @@
+.row-slider__item {
+    width: 100%;
+    padding: 50px 0px 0px;
+    text-align: center;
+
+    @media(min-width: $breakpoint_md) {
+        width: 50%;
+        letter-spacing: 0px;
+    }
+    @media(min-width: $breakpoint_lg) {
+        width: 25%;
+    }
+}

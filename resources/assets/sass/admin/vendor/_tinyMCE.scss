@@ -1,0 +1,36 @@
+.form-group > .mce-panel {
+	border: 1px solid $color-input-border;
+	overflow: hidden;
+	@include box-shadow(none);
+	@include border-top-radius(4px);
+	@include border-bottom-radius(4px);
+}
+
+.form-group .mce-panel.mce-last,
+.form-group .mce-edit-area.mce-container.mce-panel.mce-stack-layout-item {
+	border-color: $color-input-border !important;
+}
+
+.form-group .mce-container.mce-toolbar.mce-stack-layout-item.mce-first {
+	border-bottom: 1px solid $color-input-border !important;
+}
+
+.form-group .mce-menubar {
+	background-color: $color-bg;
+}
+
+.form-group .mce-top-part::before {
+	@include box-shadow(none);
+}
+
+.form-group .mce-path-item {
+	color: $color-gray;
+}
+
+.form-group .mce-container-body.mce-flow-layout .mce-widget {
+	color: $color-gray;
+}
+
+.form-group .mce-toolbar.mce-last .mce-flow-layout-item.mce-last {
+	float: right;
+}

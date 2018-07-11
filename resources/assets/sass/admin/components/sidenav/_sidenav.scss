@@ -1,0 +1,8 @@
+.sidenav {
+	@include size(80px 100%);
+	@include size(80px 100vh);
+	@include box-shadow(1px 0 0 0 #F0F3F4);
+	background-color: #FFF;
+	z-index: 100;
+	@include position(fixed, 0 null null 0);
+}

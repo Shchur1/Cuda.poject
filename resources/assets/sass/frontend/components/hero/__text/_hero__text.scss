@@ -1,0 +1,31 @@
+.hero__text {
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 60px 0 5px;
+    @media(min-width: $breakpoint_md) {
+        text-align: center;
+        color: white;
+        font-size: 42.16px;
+        font-weight: 700;
+        padding: 80px 0 0;
+        line-height: 44px;
+        letter-spacing: -1.7px;
+        margin: 0 auto;
+        & br{
+            display: none;
+        }
+    }
+    @media(min-width: $breakpoint_lg){
+        text-align: center;
+        color: white;
+        font-size: 42.16px;
+        font-weight: 700;
+        padding: 80px 0 0;
+        line-height: 44px;
+        letter-spacing: -1.7px;
+        margin: 0 auto;
+    }
+}

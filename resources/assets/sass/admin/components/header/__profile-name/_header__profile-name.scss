@@ -1,0 +1,9 @@
+.header__profile-name {
+	float: left;
+	position: relative;
+	padding-right: 6px;
+	color: #637280;
+	@include transition(all 300ms ease);
+	//padding-right: 18px;
+	//@include bg('/admin_assets/images/icons/icon-arrow-down.svg', 10px 5px, no-repeat, top 53% right 0);
+}

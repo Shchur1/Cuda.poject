@@ -1,0 +1,16 @@
+.modal {
+	@include position(fixed, 50% null null 50%);
+	@include transform(translate(-50%, -50%));
+	background-color: #FFF;
+	@include transition(all 500ms ease);
+	z-index: -100;
+	visibility: hidden;
+	opacity: 0;
+	@include box-shadow(0 2px 14px 0 rgba(0,0,0,0.09));
+
+	&.active {
+		visibility: visible;
+		z-index: 1000;
+		opacity: 1;
+	}
+}
